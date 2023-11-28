@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Bank App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="x-images" href="https://cdn-icons-png.flaticon.com/512/2978/2978933.png">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>BLOOD BANK APP</h1>
+    </div>
+    <div class="flex-container">
+        <div class="card">
+
+        </div>
+        <div class="card">
+            <h1>Register Here</h1>
+            <div class="formData">
+                <div class="input-field">
+                    <label>First Name : </label><input type="text" placeholder="Full Name" id="firstName">
+                </div>
+                <div class="input-field">
+                    <label>Last Name : </label><input type="text" placeholder="Full Name" id="lastName">
+                </div>
+
+
+                <div class="input-field">
+                    <label>Email Add: </label><input type="email" placeholder="Email Address" id="emailAddress">
+                </div>
+                <div class="input-field">
+                    <label>Phone No. : </label>
+                    <input type="number" placeholder="Phone Number" id="phoneNumber">
+                </div>
+                <div class="input-field">
+                    <p id="errorMessage"></p>
+                    <button onclick="validate()">SUBMIT</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+
+</html>
